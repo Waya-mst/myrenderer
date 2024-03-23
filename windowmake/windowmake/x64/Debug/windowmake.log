@@ -1,4 +1,7 @@
 ﻿  game.cpp
+  main.cpp
+  コードを生成中...
+C:\Users\kamee\Desktop\workspace\myrenderer\windowmake\windowmake\game.cpp(32,1): warning C4715: 'Game::Initialize': 値を返さないコントロール パスがあります。
   windowmake.vcxproj -> C:\Users\kamee\Desktop\workspace\myrenderer\windowmake\x64\Debug\windowmake.exe
   C:\SDL2-2.30.1\lib\x64\SDL2.dll
   1 個のファイルをコピーしました

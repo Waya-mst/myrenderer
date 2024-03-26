@@ -11,11 +11,14 @@ public:
 private:
 	// RunLoop内で使われる関数
 	void ProcessInput();
-	void UpdateGame();
+	//void UpdateGame();
 	void GenerateOutput();
 
 	// SDLで作られるウィンドウ
 	SDL_Window* mWindow;
 	// ゲームの続行を示すフラグ
 	bool mIsRunning;
+	// SDLレンダラー
+	SDL_Renderer* mRenderer;
+
 };

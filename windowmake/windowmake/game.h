@@ -1,6 +1,12 @@
 #pragma once
 #include "SDL.h"
 
+struct Vector2
+{
+	float x;
+	float y;
+};
+
 class Game
 {
 public:

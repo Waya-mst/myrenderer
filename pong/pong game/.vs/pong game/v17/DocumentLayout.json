@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{067B63F8-B381-4429-A4AB-7D48D8FABC8C}|Project1\\Project1.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{067B63F8-B381-4429-A4AB-7D48D8FABC8C}|Project1\\Project1.vcxproj|solutionrelative:Project1\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067B63F8-B381-4429-A4AB-7D48D8FABC8C}|Project1\\Project1.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{067B63F8-B381-4429-A4AB-7D48D8FABC8C}|Project1\\Project1.vcxproj|solutionrelative:Project1\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067B63F8-B381-4429-A4AB-7D48D8FABC8C}|Project1\\Project1.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{067B63F8-B381-4429-A4AB-7D48D8FABC8C}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\main.cpp",
+              "RelativeDocumentMoniker": "Project1\\main.cpp",
+              "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\main.cpp",
+              "RelativeToolTip": "Project1\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-29T13:08:06.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.cpp",
+              "RelativeDocumentMoniker": "Project1\\game.cpp",
+              "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.cpp",
+              "RelativeToolTip": "Project1\\game.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-29T13:02:51.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "game.h",
+              "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.h",
+              "RelativeDocumentMoniker": "Project1\\game.h",
+              "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.h",
+              "RelativeToolTip": "Project1\\game.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-29T13:01:56.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

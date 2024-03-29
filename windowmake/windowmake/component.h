@@ -4,10 +4,12 @@ class Component
 {
 public:
 	// コンストラクタ
-	// updateorderが小さい順に更新
+	// updateOrderが小さい順に更新
 	Component(class Actor* owner, int update = 100);
 
 	virtual ~Component();
+
+	// コンポーネントをデルタタイムごとに更新
 	virtual void Update(float deltaTime);
 	int GetUpdateOrder() const { return mUpdateOrder; }
 

@@ -1,6 +1,9 @@
 #include "game.h"
+#include<cmath>
+#include<cstdlib>
 
 const int thickness = 15;
+const int paddleH = thickness * 5;
 
 Game::Game()
 	:mWindow(nullptr)
@@ -51,13 +54,15 @@ bool Game::Initialize()
 	mBallPos.x = 1024.0f / 2.0f;
 	mBallPos.y = 768.0f / 2.0f;
 
+	mBallVel.x = 200.0f;
+	mBallVel.y = 235.0f;
 }
 
 void Game::RunLoop()
 {
 	while (mIsRunning) {
 		ProcessInput();
-		//UpdateGame();
+		UpdateGame();
 		GenerateOutput();
 	}
 }
@@ -83,6 +88,15 @@ void Game::ProcessInput()
 	}
 	// キーボードの状態を取得する
 	const Uint8* state = SDL_GetKeyboardState(NULL);
+
+	mPaddleDir = 0;
+	if (state[SDL_SCANCODE_W]) {
+		mPaddleDir -= 1;
+	}
+	if (state[SDL_SCANCODE_S]) {
+		mPaddleDir += 1;
+	}
+
 	// ECSが押されていても終了
 	if (state[SDL_SCANCODE_ESCAPE]) {
 		mIsRunning = false;
@@ -91,12 +105,54 @@ void Game::ProcessInput()
 
 void Game::UpdateGame()
 {
+	while (!SDL_TICKS_PASSED(SDL_GetTicks(), mTicksCount + 16))
+		;
+
 	// deltaTimeは前のフレームとの時刻の差を秒に変換した値
 	float deltaTime = (SDL_GetTicks() - mTicksCount) / 1000.0f;
 	// 時刻を更新
 	mTicksCount = SDL_GetTicks();
 
+	if (deltaTime > 0.05f) {
+		deltaTime = 0.05f;
+	}
 
+	if (mPaddleDir != 0) {
+		mPaddlePos.y += mPaddleDir * 300.0f * deltaTime;
+		if (mPaddlePos.y < thickness) {
+			mPaddlePos.y = thickness;
+		}
+		else if (mPaddlePos.y > (768.0f - (paddleH / 2.0f + thickness))) {
+			mPaddlePos.y = 768.0f - (paddleH / 2.0f + thickness);
+		}
+	}
+
+	mBallPos.x += mBallVel.x * deltaTime;
+	mBallPos.y += mBallVel.y * deltaTime;
+
+	if (mBallPos.x >= 1024.0f - thickness && mBallVel.x > 0.0f) {
+		mBallVel.x = -mBallVel.x;
+	}
+	else if (mBallPos.y < thickness && mBallVel.y < 0.0f) {
+		mBallVel.y = -mBallVel.y;
+	}
+	else if (mBallPos.y > 768.0f - thickness && mBallVel.y > 0.0f) {
+		mBallVel.y = -mBallVel.y;
+	}
+
+	float diff = std::abs(mBallPos.y - mPaddlePos.y);
+	if (
+		diff <= paddleH / 2.0f &&
+		mBallPos.x < mPaddlePos.x + thickness &&
+		mBallPos.y < 768.0f - thickness && mBallPos.y > thickness &&
+		mBallVel.x < 0.0f
+		) {
+		mBallVel.x *= -1;
+	}
+
+	if (mBallPos.x < mPaddlePos.x) {
+		mIsRunning = false;
+	}
 }
 void Game::GenerateOutput()
 {
@@ -151,7 +207,7 @@ void Game::GenerateOutput()
 		static_cast<int>(mPaddlePos.x - thickness / 2),
 		static_cast<int>(mPaddlePos.y - thickness / 2),
 		thickness,
-		thickness * 5
+		paddleH
 	};
 	SDL_RenderFillRect(mRenderer, &paddle);
 	

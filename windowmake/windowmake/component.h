@@ -12,7 +12,7 @@ public:
 	// コンポーネントをデルタタイムごとに更新
 	virtual void Update(float deltaTime);
 	int GetUpdateOrder() const { return mUpdateOrder; }
-
+	
 protected:
 	class Actor* mOwner;
 	int mUpdateOrder;

@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="actor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h" />

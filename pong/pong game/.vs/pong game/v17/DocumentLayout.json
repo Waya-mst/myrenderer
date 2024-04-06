@@ -18,10 +18,10 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
-          "DockedWidth": 199,
+          "DockedWidth": 264,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Project1\\game.cpp",
               "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\pong\\pong game\\Project1\\game.cpp",
               "RelativeToolTip": "Project1\\game.cpp",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAAAJcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-29T13:02:51.715Z",
               "EditorCaption": ""
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "DockedWidth": 201,
+          "DockedWidth": 136,
           "SelectedChildIndex": 0,
           "Children": [
             {

@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB78B743-8240-43EF-B805-A2CBFCCF9A93}|windowmake\\windowmake.vcxproj|solutionrelative:windowmake\\actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,26 +39,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "actor.cpp",
+              "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.cpp",
+              "RelativeDocumentMoniker": "windowmake\\actor.cpp",
+              "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.cpp",
+              "RelativeToolTip": "windowmake\\actor.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-06T16:19:27.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "component.h",
               "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\component.h",
               "RelativeDocumentMoniker": "windowmake\\component.h",
               "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\component.h",
               "RelativeToolTip": "windowmake\\component.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-29T11:39:59.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "actor.h",
-              "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.h",
-              "RelativeDocumentMoniker": "windowmake\\actor.h",
-              "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.h",
-              "RelativeToolTip": "windowmake\\actor.h",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-28T19:08:39.26Z"
+              "WhenOpened": "2024-03-29T11:39:59.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,7 +70,7 @@
               "RelativeDocumentMoniker": "windowmake\\game.cpp",
               "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\game.cpp",
               "RelativeToolTip": "windowmake\\game.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-18T03:58:18.892Z",
               "EditorCaption": ""
@@ -78,18 +84,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "actor.h",
+              "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.h",
+              "RelativeDocumentMoniker": "windowmake\\actor.h",
+              "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\actor.h",
+              "RelativeToolTip": "windowmake\\actor.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-28T19:08:39.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "game.h",
               "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\game.h",
               "RelativeDocumentMoniker": "windowmake\\game.h",
               "ToolTip": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\game.h",
               "RelativeToolTip": "windowmake\\game.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-23T07:39:09.907Z"
+              "WhenOpened": "2024-03-23T07:39:09.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\kamee\\Desktop\\workspace\\myrenderer\\windowmake\\windowmake\\main.cpp",
               "RelativeDocumentMoniker": "windowmake\\main.cpp",

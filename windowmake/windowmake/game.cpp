@@ -1,9 +1,11 @@
 #include "game.h"
+#include "actor.h"
 
 Game::Game()
 	:mWindow(nullptr)
 	, mIsRunning(true)
 	, mRenderer(nullptr)
+	, mTicksCount(0)
 {
 
 }
@@ -37,13 +39,18 @@ bool Game::Initialize()
 		SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC
 		);
 
+	if (!mRenderer) {
+		SDL_Log("failed to create renderer: %s", SDL_GetError());
+		return false;
+	}
+
 }
 
 void Game::RunLoop()
 {
 	while (mIsRunning) {
 		ProcessInput();
-		//UpdateGame();
+		UpdateGame();
 		GenerateOutput();
 	}
 }
@@ -51,8 +58,17 @@ void Game::RunLoop()
 void Game::Shutdown()
 {
 	SDL_DestroyWindow(mWindow);
-	//SDL_DestroyRenderer(mRenderer);
+	SDL_DestroyRenderer(mRenderer);
 	SDL_Quit();
+}
+
+void Game::AddActor(Actor* actor) {
+	if (mUpdatingActors) {
+		mPendingActors.emplace_back(actor);
+	}
+	else {
+		mActors.emplace_back(actor);
+	}
 }
 
 void Game::ProcessInput()
@@ -72,6 +88,17 @@ void Game::ProcessInput()
 	// ECS‚ª‰Ÿ‚³‚ê‚Ä‚¢‚Ä‚àI—¹
 	if (state[SDL_SCANCODE_ESCAPE]) {
 		mIsRunning = false;
+	}
+}
+
+void Game::UpdateGame()
+{
+	while (!SDL_TICKS_PASSED(SDL_GetTicks(), mTicksCount + 16))
+		;
+	float deltaTime = (SDL_GetTicks() - mTicksCount) / 1000.0f;
+	mTicksCount = SDL_GetTicks();
+	if (deltaTime > 0.05f) {
+		deltaTime = 0.05f;
 	}
 }
 

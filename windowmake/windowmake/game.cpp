@@ -71,6 +71,37 @@ void Game::AddActor(Actor* actor) {
 	}
 }
 
+void Game::RemoveActor(Actor* actor)
+{
+	float deltaTime = (SDL_GetTicks() - mTicksCount) / 1000.0f;
+
+	// 全てのアクターを更新
+	mUpdatingActors = true;
+	for (auto actor : mActors) {
+		actor->Update(deltaTime);
+	}
+	mUpdatingActors = false;
+	
+	// 待ち状態のアクターをmActorsに移動
+	for (auto pending : mPendingActors) {
+		mActors.emplace_back(pending);
+	}
+	mPendingActors.clear();
+
+	// 死んだアクターを配列に追加
+	std::vector<Actor*> deadActors;
+
+	for (auto actor : mActors) {
+		if (actor->GetState() == Actor::EDead) {
+			deadActors.emplace_back(actor);
+		}
+	}
+
+	for (auto actor : deadActors) {
+		delete actor;
+	}
+}
+
 void Game::ProcessInput()
 {
 	SDL_Event event;

@@ -26,6 +26,9 @@ public:
 	// アクター独自の更新処理
 	virtual void UpdateActor(float deltaTime);
 
+	State GetState() const { return mState; }
+	void SetState(State state) { mState = state; }
+
 	// コンポーネントの追加、削除
 	void AddComponent(class Component* component);
 	void RemoveComponent(class Component* component);

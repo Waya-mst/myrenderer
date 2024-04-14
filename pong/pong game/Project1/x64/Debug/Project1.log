@@ -1,6 +1,4 @@
 ﻿  game.cpp
-  main.cpp
-  コードを生成中...
 C:\Users\kamee\Desktop\workspace\myrenderer\pong\pong game\Project1\game.cpp(59,1): warning C4715: 'Game::Initialize': 値を返さないコントロール パスがあります。
   Project1.vcxproj -> C:\Users\kamee\Desktop\workspace\myrenderer\pong\pong game\x64\Debug\Project1.exe
   C:\SDL2-2.30.1\lib\x64\SDL2.dll
